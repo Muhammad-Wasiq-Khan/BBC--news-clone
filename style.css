@@ -1,0 +1,79 @@
+* {
+    font-family: "BBC Reith Sans", BBCReithSans-fallback, sans-serif;
+}
+
+.Sign .btn {
+    background-color: white !important;
+    color: black !important;
+    padding: 6px 12px !important;
+    border-radius: 0px !important;
+}
+
+.Sign .btn:hover {
+    background-color: black !important;
+    color: white !important;
+    opacity: 0.7;
+}
+
+.button .btn {
+    background-color: black !important;
+    color: white !important;
+    padding: 6px 12px !important;
+    border-radius: 0px !important;
+}
+
+.button .btn:hover {
+    opacity: 0.7;
+}
+
+
+.button,
+.Sign {
+    display: flex;
+    align-items: center;
+}
+
+.tab:hover {
+    opacity: 0.7;
+}
+
+.card {
+
+    border: 1px solid transparent !important;
+    border-radius: 0% !important;
+
+}
+
+.card-text {
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 18px !important;
+    letter-spacing: 0px !important;
+    color: rgb(32, 34, 36) !important;
+}
+
+.card-title {
+    color: rgb(32, 34, 36) !important;
+    font-weight: 500 !important;
+    font-size: 18px !important;
+    line-height: 22px !important;
+    text-decoration: none !important;
+    letter-spacing: -0.36px !important;
+}
+
+.card:hover h5 {
+    text-decoration: underline !important;
+}
+
+.card:hover img {
+    opacity: 0.7 !important;
+}
+
+.card-body span {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration: none;
+    letter-spacing: -0.12px;
+    color: rgb(84, 86, 88);
+}
