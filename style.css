@@ -33,15 +33,18 @@
     align-items: center;
 }
 
+.pb-2 {
+    font-size: 16px !important;
+    font-weight: 800 !important;
+}
+
 .tab:hover {
     opacity: 0.7;
 }
 
 .card {
-
     border: 1px solid transparent !important;
     border-radius: 0% !important;
-
 }
 
 .card-text {
@@ -54,14 +57,15 @@
 
 .card-title {
     color: rgb(32, 34, 36) !important;
-    font-weight: 500 !important;
+    font-weight: 550 !important;
     font-size: 18px !important;
     line-height: 22px !important;
     text-decoration: none !important;
     letter-spacing: -0.36px !important;
 }
 
-.card:hover h5 {
+.card:hover h5,
+.card:hover h6 {
     text-decoration: underline !important;
 }
 
@@ -76,4 +80,72 @@
     text-decoration: none;
     letter-spacing: -0.12px;
     color: rgb(84, 86, 88);
+}
+
+.save button {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid rgb(210, 212, 214);
+    width: 24px;
+    height: 24px;
+}
+
+h6.card-title {
+    font-size: 14px !important;
+}
+
+.save p {
+    margin: 0px 3px 0px 0px;
+    padding: 0px;
+    border: 0px;
+    font-size: 14px !important;
+    font-weight: 600;
+}
+
+.rounded-0 img {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.rounded-0:hover img {
+    opacity: 1 !important;
+}
+
+.justify-content-start .tab {
+    font-size: 14px !important;
+    font-weight: bold !important;
+}
+
+.justify-content-start .tab:hover {
+    text-decoration: underline;
+    opacity: 1 !important;
+}
+
+.dropdown .btn {
+    background-color: #e6e8ea !important;
+    color: rgb(32, 34, 36);
+}
+
+.s-icon {
+    fill: currentColor;
+    margin: 0px 10px !important;
+}
+
+.s-icon:hover {
+    outline: rgb(58, 60, 62) solid 1px;
+}
+
+.help {
+    font-size: 12px !important;
+}
+
+.help:hover {
+    text-decoration: underline !important;
+}
+
+.container p {
+    font-size: 12px !important;
 }
